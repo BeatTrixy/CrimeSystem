@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CrimeSystem", "CrimeSystem\CrimeSystem.csproj", "{BA915EFA-F70D-45FB-9862-749C38946395}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL", "DAL\DAL.csproj", "{39FA250B-F7D7-40CF-8A05-F960CB53F2B0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DAL.Tests", "DAL.Tests\DAL.Tests.csproj", "{6F49714F-A3EC-4628-91AA-FD22ADF40120}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BA915EFA-F70D-45FB-9862-749C38946395}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BA915EFA-F70D-45FB-9862-749C38946395}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BA915EFA-F70D-45FB-9862-749C38946395}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BA915EFA-F70D-45FB-9862-749C38946395}.Release|Any CPU.Build.0 = Release|Any CPU
+		{39FA250B-F7D7-40CF-8A05-F960CB53F2B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{39FA250B-F7D7-40CF-8A05-F960CB53F2B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{39FA250B-F7D7-40CF-8A05-F960CB53F2B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{39FA250B-F7D7-40CF-8A05-F960CB53F2B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6F49714F-A3EC-4628-91AA-FD22ADF40120}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6F49714F-A3EC-4628-91AA-FD22ADF40120}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6F49714F-A3EC-4628-91AA-FD22ADF40120}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6F49714F-A3EC-4628-91AA-FD22ADF40120}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
