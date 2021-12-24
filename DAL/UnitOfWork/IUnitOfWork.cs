@@ -1,12 +1,12 @@
 ﻿using System;
 using DAL.Repository.Impl;
+using DAL.Repository.Interfaces;
 
 namespace DAL.UnitOfWork
 {
     public interface IUnitOfWork : IDisposable
     {
-        CaseRepository CaseRepository { get; }
-        UserRepository UserRepository { get; }
+        ICaseRepository CaseRepository { get; }
         void Save();
     }
 }

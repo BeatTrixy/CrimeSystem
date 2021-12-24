@@ -1,5 +1,6 @@
 ﻿using System;
 using DAL.Repository.Impl;
+using DAL.Repository.Interfaces;
 using DAL.UnitOfWork;
 using Microsoft.EntityFrameworkCore;
 
@@ -9,17 +10,14 @@ namespace DAL.EF
     {
         private CaseContext db;
         private CaseRepository _caseRepository;
-        private UserRepository _userRepository;
         
         public EfUnitOfWork(DbContextOptions options)
         {
             db = new CaseContext(options);
         }
         
-        public CaseRepository CaseRepository => _caseRepository ??= new CaseRepository(db);
-
-        public UserRepository UserRepository => _userRepository ??= new UserRepository(db);
-
+        public ICaseRepository CaseRepository => _caseRepository ??= new CaseRepository(db);
+        
         public void Save()
         {
             db.SaveChanges();
